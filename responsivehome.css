@@ -1,0 +1,75 @@
+
+
+  @media (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    body{
+        background: #88edfc;
+    }
+    
+    header img{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .search{
+        margin-left: 8px;
+    }
+    .search input{
+        width: 8rem;
+        height: 1.5rem;
+    }
+    .search button{
+        height: 25px;
+        height: 25px;
+        margin-top: 5px;
+        border-radius: 100px;
+    }
+    .temp{
+        margin-left: 10px;
+    }
+    .temp img{
+        width: 10rem;
+    }
+    .tempo{
+        margin-left: 43px;
+    }
+    .details {
+      margin-left: 20px;
+      display: flex;
+      /* justify-content: space-around; Evenly space the divs */
+      gap: 10px;
+      flex-direction: column;
+      margin-top: -20px;
+    }
+    .details div{
+        justify-content: center;
+        text-align: center;
+        height: 6rem;
+        width: 6rem;
+        border-radius: 40px;
+        margin-left: 23px;
+        margin-top: 2px ;
+    }
+    .details div img{
+        height: 30px;
+    }
+    .details div h4{
+        height: 20px;
+        font-size: small;
+        margin-top: 4px;
+    }
+    /* .details #detail1{
+        margin-top: 2px; */
+    /* } */
+    #detail2{
+        margin-left: 23px;
+        height: 6rem;
+        width: 6rem;
+        border-radius: 40px;
+    }
+  }

@@ -4,5 +4,127 @@
     font-family: sans-serif;
 }
 body{
-    background: #06a2bb;
+    background: #88edfc;
+}
+
+/* .card{
+    background: #024c57;
+    width: 90%;
+    max-width: 470px;
+    margin: 150px auto 0;
+} */
+
+
+.search{
+    margin-left: 26rem;
+    margin-top: 5rem;
+    display: flex;
+
+}
+.search input{
+    width: 25rem;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin-top: 6px;
+}
+.search button{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.temp{
+    justify-content: center;
+    margin-left: 33rem;
+    margin-top: 15px;
+}
+.tempo{
+    margin-left: 5rem;
+}
+
+
+.details{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 65%;
+    /* background-color: #209CEEEE; */
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row;
+    margin-top: 7rem;
+    margin-left: 14rem;
+
+}
+.details div {
+    width: 150px;
+    height: 150px;
+    /* margin: 6px; */
+    margin-left: 10px;
+    background-color: #209CEEEE;
+    border-radius: 50px;
+    /* border-radius: 100% 0% 100% 0% / 30% 69% 31% 70%  ; */
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+#detail2{
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        width: 150px;
+        background-color: #209CEEEE;
+        height: 150px;
+        overflow: auto;
+        margin-left: 35rem;
+        margin-bottom: 50px;
+        border-radius: 50px;
+        flex-direction: row;
+        /* margin-top: 2px;
+        margin-left: 20px; */
+        /* margin: 6px; */
+        /* border-radius: 100% 0% 100% 0% / 30% 69% 31% 70%  ; */    
+}
+    #detail2 div {
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        margin-top: 2px;
+    }
+#d2{
+    margin-top: 2px;
+}
+.details2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 65%;
+    /* background-color: #209CEEEE; */
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row;
+    margin-top: 7rem;
+    margin-left: 14rem;
+
+}
+#detail1,#detail2{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+header img{
+    margin-left: 60px; 
+    margin-top: 8px;
 }
