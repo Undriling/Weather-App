@@ -6,9 +6,6 @@
         padding: 0;
         font-family: sans-serif;
     }
-    body{
-        background: #88edfc;
-    }
     
     header img{
         width: 30px;
@@ -17,59 +14,180 @@
         margin-top: 15px;
     }
     .search{
-        margin-left: 8px;
+        margin-left: 63px;
     }
     .search input{
-        width: 8rem;
+        width: 250px;
         height: 1.5rem;
+        margin-left: 4px;
     }
     .search button{
         height: 25px;
-        height: 25px;
+        width: 25px;
         margin-top: 5px;
         border-radius: 100px;
     }
     .temp{
-        margin-left: 10px;
+        margin-left: 60px;
     }
     .temp img{
-        width: 10rem;
+        width: 16rem;
+    }
+    .temp h1,.temp h2{
+        margin-left: 10px;
     }
     .tempo{
-        margin-left: 43px;
+        margin-left: 85px;
     }
     .details {
-      margin-left: 20px;
+      margin-left: 28px;
       display: flex;
-      /* justify-content: space-around; Evenly space the divs */
       gap: 10px;
       flex-direction: column;
-      margin-top: -20px;
+      margin-top: 40px;
     }
     .details div{
         justify-content: center;
         text-align: center;
-        height: 6rem;
-        width: 6rem;
+        height: 5rem;
+        width: 8rem;
         border-radius: 40px;
-        margin-left: 23px;
+        margin-left: 70px;
         margin-top: 2px ;
+        font-weight: 500;
+        /* margin-bottom: 10px; */
     }
     .details div img{
-        height: 30px;
+        height: 35px;
     }
     .details div h4{
         height: 20px;
         font-size: small;
         margin-top: 4px;
     }
-    /* .details #detail1{
-        margin-top: 2px; */
-    /* } */
-    #detail2{
-        margin-left: 23px;
-        height: 6rem;
-        width: 6rem;
-        border-radius: 40px;
+    #detail2 img{
+        height: 100px;
+        width: 100px;
+        margin-left: 10px;
+    }
+    #detail2 h3{
+        margin-left: 1px;
+
+    }
+    #detail3 img{
+        height: 60px;
+        width: 60px;
+        margin-left: 10px;
+    }
+    #detail3 h3{
+        margin-left: 1px;
+    }
+    footer p{
+        margin-right: 30px;
+    }
+    footer ul{
+        display: flex;
+    }
+    footer ul li{
+        padding: 0 12px;
+        list-style: none;
+    }
+    footer{
+        margin-top: 10px;
     }
   }
+
+  @media (max-width: 760px){
+        .details{
+            padding: 10px 10px;
+        }
+        .temp{
+            margin-bottom: -20px;
+        }
+  }
+
+  @media (min-width: 760px) and (max-width: 1024px){
+    .search{
+        margin-left: 16vh;
+    }
+    .search input{
+        width: 40vh;
+    }
+    .temp{
+        margin-left: 17rem;
+        margin-top: 90px;
+    }
+    .details{
+        margin-left: 9rem;
+        margin-top: 5px;
+    }
+    .details div{
+        justify-content: center;
+        text-align: center;
+        font-weight: 500;
+        /* padding: 50px; */
+    }
+    #detail1{
+        padding: 20px 20px;
+        margin-bottom: 20px;
+    }
+    #detail2 img{
+        margin-left: 10px;
+    }
+    #detail2 h3{
+        margin-left: 10px;
+    }
+    #detail3 img{
+        margin-left: 10px;
+    }
+    #detail3 h3{
+        margin-left: 10px;
+    }
+    
+  }
+
+  /* @media (min-width: 1020px){
+    .search{
+        margin-left: 14rem;
+    }
+    .temp{
+        margin-left: 19rem;
+    }
+    .temp img{
+        height: 25rem;
+        width: 25rem;    
+    }
+    .tempo h1,.tempo h2{
+        margin-left: 5rem;
+        font-weight: bolder;
+    }
+    .details{
+        margin-left: 14vh;
+    }
+  } */
+  @media (min-width: 420px) and (max-width: 940px){
+    .search{
+        margin-left: 85px;
+    }
+    .temp{
+        margin-left: 10vh;
+    }
+    .details{
+        margin-left: 5vh;
+    }
+    #detail2 img{
+        margin-left: 8px;
+    }
+    #detail3 img{
+        margin-left: 8px;
+    }
+    
+  }
+
+  
+
+@media (max-width: 850px){
+    .temp img{
+        margin-left: 13px;
+    }
+}
