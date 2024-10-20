@@ -4,7 +4,6 @@
     *{
         margin: 0;
         padding: 0;
-        font-family: sans-serif;
     }
     
     header img{
@@ -33,12 +32,30 @@
     .temp img{
         width: 16rem;
     }
-    .temp h1,.temp h2{
+    .temp h1{
         margin-left: 10px;
+    }
+    .tempo h2{
+        margin-left: 6px;
+    }
+    .tempo h3{
+        margin-left: 2rem;
     }
     .tempo{
         margin-left: 85px;
     }
+    .cc{
+        margin-left: -33px;
+    }
+    .cc h2{
+        padding: 15px;
+    }
+    .cc h3{
+        margin-left: -7px;
+        font-size:x-large;
+    }
+    
+    
     .details {
       margin-left: 28px;
       display: flex;
@@ -72,7 +89,9 @@
     }
     #detail2 h3{
         margin-left: 1px;
-
+    }
+    #detail2 h4{
+        margin-left: 1px;
     }
     #detail3 img{
         height: 60px;
@@ -80,6 +99,9 @@
         margin-left: 10px;
     }
     #detail3 h3{
+        margin-left: 1px;
+    }
+    #detail3 h4{
         margin-left: 1px;
     }
     footer p{
@@ -94,6 +116,9 @@
     }
     footer{
         margin-top: 10px;
+    }
+    .error{
+        margin-left: 4.5rem;
     }
   }
 
@@ -117,6 +142,22 @@
         margin-left: 17rem;
         margin-top: 90px;
     }
+    .tempo h2{
+        margin-left: -5px;
+    }
+    .tempo h3{
+        margin-left: 20px;
+    }
+    .cc{
+        margin-left: -40px;
+    }
+    .cc h2{
+        padding: 15px;
+    }
+    .cc h3{
+        margin-left: -7px;
+        font-size:x-large;
+    }
     .details{
         margin-left: 9rem;
         margin-top: 5px;
@@ -137,34 +178,25 @@
     #detail2 h3{
         margin-left: 10px;
     }
+    #detail2 h4{
+        margin-left: 10px;
+    }
     #detail3 img{
         margin-left: 10px;
     }
     #detail3 h3{
         margin-left: 10px;
     }
+    #detail3 h4{
+        margin-left: 10px;
+    }
+    .error{
+        margin-left: 15.5rem;
+    }
     
   }
 
-  /* @media (min-width: 1020px){
-    .search{
-        margin-left: 14rem;
-    }
-    .temp{
-        margin-left: 19rem;
-    }
-    .temp img{
-        height: 25rem;
-        width: 25rem;    
-    }
-    .tempo h1,.tempo h2{
-        margin-left: 5rem;
-        font-weight: bolder;
-    }
-    .details{
-        margin-left: 14vh;
-    }
-  } */
+  
   @media (min-width: 420px) and (max-width: 940px){
     .search{
         margin-left: 85px;
@@ -181,7 +213,9 @@
     #detail3 img{
         margin-left: 8px;
     }
-    
+    .error{
+        margin-left: 6rem;
+    }
   }
 
   

@@ -26,28 +26,41 @@
             <input type="text" placeholder="Enter city name">
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
+
+        <div class="error">
+            <p>Invalid city name!</p>
+        </div>
+
         <div class="temp">
-            <img src="\images\clear.png">
+            <img src="\images\clear.png" class="weather-icon">
             <div class="tempo">
-                <h1>29°C</h1>
-                <h2>Jaipur</h2>
+                <h1 class="citytemp">29°C</h1>
+
+                <div class="cc">
+                    <h2 class="city">Guwahati ,</h2>
+                    <h3 class="country">IN</h3>
+                </div>
             </div>
         </div>
         <div class="details">
                 <div id="detail1">
                     <img src="\images\humidity.png">
+                    <h4 class="humidity">90%</h4>
                     <h3>Humidity</h3>
                 </div>
                 <div id="detail1">
                     <img src="\images\wind.png">
+                    <h4 class="wind">0.97 Km/hr</h4>
                     <h3>Wind Gusts</h3>
                 </div>
                 <div id="detail2">
                     <img src="\images\air_pressure.png">
+                    <h4 class="air">1001 mb</h4>
                     <h3>Pressure</h3>
                 </div> 
                 <div id="detail3">
                     <img src="\images\clouds.png">
+                    <h4 class="Cloud">60%</h4>
                     <h3>Cloud Cover</h3>
                 </div>
         </div>
@@ -77,5 +90,6 @@
     </footer>
     <script src="https://kit.fontawesome.com/759c45ce4b.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/45eee4a6c3.js" crossorigin="anonymous"></script>
+    <script src="api.js"></script>
 </body>
 </html>
