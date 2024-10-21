@@ -10,10 +10,10 @@ Features
 - Weather Icons: Displays intuitive icons for weather conditions like sunny, cloudy, rainy, and more.
 
 Technologies Used
-HTML5: For the structure and layout of the app.
-CSS3: For styling, animations, and UI design.
-Bootstrap: For responsive grid and layout.
-JavaScript: For fetching weather data via API and dynamically updating the UI.
+- HTML5: For the structure and layout of the app.
+- CSS3: For styling, animations, and UI design.
+- Bootstrap: For responsive grid and layout.
+- JavaScript: For fetching weather data via API and dynamically updating the UI.
 
 API Integration
-The app integrates with a weather API (e.g., OpenWeatherMap) to fetch real-time weather data based on the user’s search input.
+- The app integrates with a weather API (e.g., OpenWeatherMap) to fetch real-time weather data based on the user’s search input.
