@@ -1,7 +1,7 @@
 Responsive Real Time Weather Forecast App 🌦️
 
-Overview :-
-This Weather App is a web-based application built using HTML5, CSS3, Bootstrap, and JavaScript. It allows users to get real-time weather updates for any location worldwide. The app uses a clean and responsive design to ensure a seamless experience across various devices.
+Overview 
+- This Weather App is a web-based application built using HTML5, CSS3, Bootstrap, and JavaScript. It allows users to get real-time weather updates for any location worldwide. The app uses a clean and responsive design to ensure a seamless experience across various devices.
 
 Features
 - Real-time Weather Data: Fetches current weather conditions, including temperature, humidity, wind speed, and more.
