@@ -17,43 +17,29 @@
     }
     .search input{
         width: 250px;
-        height: 1.5rem;
+        height: 2rem;
         margin-left: 4px;
     }
     .search button{
-        height: 25px;
-        width: 25px;
+        height: 35px;
+        width: 35px;
         margin-top: 5px;
         border-radius: 100px;
     }
     .temp{
-        margin-left: 60px;
+        margin-left: 50px;
     }
     .temp img{
         width: 16rem;
     }
-    .temp h1{
-        margin-left: 10px;
-    }
-    .tempo h2{
-        margin-left: 6px;
-    }
-    .tempo h3{
-        margin-left: 2rem;
-    }
+    
     .tempo{
-        margin-left: 85px;
+        margin-right: 55px;
     }
     .cc{
-        margin-left: -33px;
+        display: flex;
     }
-    .cc h2{
-        padding: 15px;
-    }
-    .cc h3{
-        margin-left: -7px;
-        font-size:x-large;
-    }
+    
     
     
     .details {
@@ -202,7 +188,7 @@
         margin-left: 85px;
     }
     .temp{
-        margin-left: 10vh;
+        margin-left: 8vh;
     }
     .details{
         margin-left: 5vh;
@@ -214,7 +200,7 @@
         margin-left: 8px;
     }
     .error{
-        margin-left: 6rem;
+        margin-left: 12rem;
     }
   }
 
