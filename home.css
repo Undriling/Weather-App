@@ -46,7 +46,7 @@ html,body{
     border: 0;
     outline: 0;
     margin-left: 5px;
-    margin-bottom: 5px;
+    margin-top: 3px;
     cursor: pointer;
 }
 .search button:hover{
